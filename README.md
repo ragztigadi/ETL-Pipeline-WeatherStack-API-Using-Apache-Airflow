@@ -1,1 +1,6 @@
 # ETL Pipeline: WeatherStack API + Apache Airflow
+
+## API Respose
+
+Fetching Data from the Weather-Stack-API
+{'request': {'type': 'City', 'query': 'California City, United States of America', 'language': 'en', 'unit': 'm'}, 'location': {'name': 'California City', 'country': 'United States of America', 'region': 'California', 'lat': '35.126', 'lon': '-117.985', 'timezone_id': 'America/Los_Angeles', 'localtime': '2025-08-07 11:04', 'localtime_epoch': 1754564640, 'utc_offset': '-7.0'}, 'current': {'observation_time': '06:04 PM', 'temperature': 34, 'weather_code': 113, 'weather_icons': ['https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png'], 'weather_descriptions': ['Sunny'], 'astro': {'sunrise': '06:06 AM', 'sunset': '07:49 PM', 'moonrise': '07:12 PM', 'moonset': '04:06 AM', 'moon_phase': 'Waxing Gibbous', 'moon_illumination': 94}, 'air_quality': {'co': '290.45', 'no2': '2.775', 'o3': '159', 'so2': '3.33', 'pm2_5': '29.97', 'pm10': '74.74', 'us-epa-index': '2', 'gb-defra-index': '2'}, 'wind_speed': 14, 'wind_degree': 213, 'wind_dir': 'SSW', 'pressure': 1019, 'precip': 0, 'humidity': 12, 'cloudcover': 0, 'feelslike': 32, 'uv_index': 8, 'visibility': 16, 'is_day': 'yes'}}

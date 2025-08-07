@@ -20,5 +20,3 @@ def fetch_data():
         
 fetch_data()
 
-# API RESPOSE
-# api_url = f"http://api.weatherstack.com/current?access_key={api_key}&query={city}"
